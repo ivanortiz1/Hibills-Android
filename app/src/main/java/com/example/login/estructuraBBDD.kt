@@ -7,6 +7,9 @@ data class estructuraBBDD(
 )
 
 data class estructuraGastos(
-    var numGasto: String? = null,
+    var idGasto: String? = null,
     var categoriaGasto: String? = null,
 )
+
+
+
