@@ -24,4 +24,8 @@ Al utilizar nuestra AplicaciÃ³n, aceptas cumplir con estas Condiciones de Uso. Â
 </string>
     <string name="pantalla1" />
     <string name="titulo">CONDICIONES Y TERMINOS DE USO</string>
+    <string name="title_activity_ajustes_usuario">AjustesUsuario</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
 </resources>

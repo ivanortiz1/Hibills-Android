@@ -12,7 +12,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Login"
         tools:targetApi="31">
-
+        <activity
+            android:name=".AjustesUsuario"
+            android:exported="false"
+            android:label="@string/title_activity_ajustes_usuario" />
         <activity
             android:name=".Bienvenida"
             android:exported="false" />

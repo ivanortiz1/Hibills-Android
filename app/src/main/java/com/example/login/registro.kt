@@ -37,6 +37,7 @@ class registro() : AppCompatActivity() {
         btngrabaregistro.setOnClickListener {
             guardaDatosUsuarios()
         }
+
     }
 
     private fun guardaDatosUsuarios() {
@@ -65,7 +66,7 @@ class registro() : AppCompatActivity() {
 
         database.child(usuarioId).setValue(uBBDD)
             .addOnCompleteListener {
-                Log.d("Firebse", "Datos insertados correctamente")
+                Log.d("Firebase", "Datos insertados correctamente")
                 Toast.makeText(this, "Datos insertados correctamente", Toast.LENGTH_LONG).show()
 
                 nombreU.text.clear()
