@@ -4,6 +4,7 @@
     <color name="white">#FFFFFFFF</color>
     <color name="bluel">#BDCEFF</color>
     <color name="azul_cielo">#87CEEB</color>
+    <color name="rojo">#eb3434</color>
     <color name="colorPrimaryDark">#2196F3</color>
     <color name="verdevivo">#76FF57</color>
 </resources>
