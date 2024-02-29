@@ -23,7 +23,7 @@ class pantalla_principal : AppCompatActivity() {
         }
         val buttonpantallacreargasto = findViewById<Button>(R.id.buttoncrear)
         buttonpantallacreargasto.setOnClickListener {
-            val intent = Intent(this, creargasto::class.java)
+            val intent = Intent(this, categoriagasto::class.java)
             startActivity(intent)
         }
     }

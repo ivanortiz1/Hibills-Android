@@ -59,7 +59,7 @@ class creargasto : AppCompatActivity() {
         database.child(gastoid).setValue(uBBDD)
             .addOnCompleteListener {
                 Log.d("Firebase", "Datos insertados correctamente")
-                Toast.makeText(this, "Datos insertados correctamente", Toast.LENGTH_LONG).show()
+                Toast.makeText(this, "Gasto insertado correctamente", Toast.LENGTH_LONG).show()
 
                 idcategoria.text.clear()
                 idmes.text.clear()
