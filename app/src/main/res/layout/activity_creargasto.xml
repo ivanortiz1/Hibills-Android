@@ -19,7 +19,7 @@
             app:layout_constraintVertical_bias="0.179" />
 
         <EditText
-            android:id="@+id/gasto"
+            android:id="@+id/nombregasto"
             android:layout_width="286dp"
             android:layout_height="64dp"
             android:ems="10"
@@ -33,7 +33,7 @@
             app:layout_constraintVertical_bias="0.404" />
 
         <EditText
-            android:id="@+id/cantidadgasto"
+            android:id="@+id/gastocantidad"
             android:layout_width="286dp"
             android:layout_height="66dp"
             android:ems="10"
@@ -48,7 +48,7 @@
             tools:ignore="MissingConstraints" />
 
         <EditText
-            android:id="@+id/categoriagasto"
+            android:id="@+id/categoria"
             android:layout_width="288dp"
             android:layout_height="66dp"
             android:ems="10"
@@ -63,7 +63,7 @@
             tools:ignore="MissingConstraints" />
 
         <EditText
-            android:id="@+id/fechagasto"
+            android:id="@+id/idmes"
             android:layout_width="288dp"
             android:layout_height="66dp"
             android:ems="10"

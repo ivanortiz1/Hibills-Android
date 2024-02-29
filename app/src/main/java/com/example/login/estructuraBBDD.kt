@@ -7,9 +7,15 @@ data class estructuraBBDD(
 )
 
 data class estructuraGastos(
-    var idGasto: String? = null,
-    var categoriaGasto: String? = null,
+    var idcategoria: String? = null,
+    var idmes: String? = null,
+    var cantidad: String? = null,
+    var nombre: String? = null
 )
 
+data class categorias(
+    var nombreCat: String? = null,
+    var idGasto: Int? = null
+)
 
 
