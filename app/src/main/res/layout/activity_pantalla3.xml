@@ -15,17 +15,58 @@
         android:textSize="40sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.08"
-        />
+        app:layout_constraintVertical_bias="0.088" />
+
+    <Button
+        android:id="@+id/sobrenosotros"
+        android:layout_width="230dp"
+        android:layout_height="56dp"
+        android:backgroundTint="@color/bluel"
+        android:text="Sobre nosotros"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.336" />
+
+    <Button
+        android:id="@+id/contactanos"
+        android:layout_width="230dp"
+        android:layout_height="56dp"
+        android:backgroundTint="@color/bluel"
+        android:text="Contactanos"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.431" />
+
+    <Button
+        android:id="@+id/datosusuario"
+        android:layout_width="230dp"
+        android:layout_height="56dp"
+        android:backgroundTint="@color/bluel"
+        android:text="Datos usuario"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.528" />
 
     <Button
         android:id="@+id/buttoncsesion"
         android:layout_width="230dp"
         android:layout_height="56dp"
-        android:backgroundTint="#16FE00"
+        android:backgroundTint="@color/rojo"
         android:text="Cerrar sesión"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -33,6 +74,6 @@
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.484" />
+        app:layout_constraintVertical_bias="0.813" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

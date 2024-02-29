@@ -5,15 +5,17 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 
-class pantalla2 : AppCompatActivity() {
+class creargasto : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_pantalla2)
-
-        val buttonPantallaCsesion = findViewById<Button>(R.id.buttonpantallacsesion)
-        buttonPantallaCsesion.setOnClickListener {
-            val intent = Intent(this, pantalla3::class.java)
+        setContentView(R.layout.activity_creargasto)
+        val buttonCrearGasto = findViewById<Button>(R.id.buttoncreargasto)
+        buttonCrearGasto.setOnClickListener {
+            val intent = Intent(this, pantalla_principal::class.java)
             startActivity(intent)
         }
     }
+
+
+
 }

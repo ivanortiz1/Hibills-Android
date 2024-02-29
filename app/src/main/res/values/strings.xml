@@ -28,4 +28,24 @@ Al utilizar nuestra Aplicación, aceptas cumplir con estas Condiciones de Uso. �
     <string name="title_home">Home</string>
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
+    <string name="sobrenosotrostitulo">SOBRE NOSOTROS</string>
+    <string name="sobrenosotroscontenido">
+Hugo Martínez Priego es un profesional especializado en Inteligencia Artificial y Big Data, con una sólida formación en desarrollo de software y ciberseguridad. Actualmente se encuentra cursando una Especialización en Inteligencia Artificial y Big Data en Terrassa, en el centro educativo Vedruna Vall, desde el año 2023 hasta la actualidad.
+
+Además, Hugo está ampliando sus conocimientos en el ámbito del desarrollo de aplicaciones multiplataforma, ya que también está cursando un Grado Superior en Desarrollo de Aplicaciones Multiplataforma (DAM) en Terrassa, en el centro educativo Vedruna Vall, desde el año 2022 hasta la actualidad.
+
+Anteriormente, Hugo ha completado un Grado Superior en Administración de Sistemas Informáticos en Red (ASIX) y ciberseguridad en Terrassa, en el centro educativo Vedruna Vall, durante el período 2021-2023. Durante este programa, adquirió habilidades en la administración y mantenimiento de sistemas informáticos en red, aplicando sus conocimientos en ciberseguridad.
+
+Hugo comenzó su formación en el ámbito de la informática con un Grado Medio en Sistemas Microinformáticos y Robótica en Terrassa, en el centro educativo Vedruna Vall, durante el período 2019-2021. Durante este ciclo formativo, Hugo obtuvo una sólida base en sistemas microinformáticos y redes, con un enfoque en la robótica.
+
+Iván Ortiz Torrijos es un profesional con una amplia experiencia en el campo de la informática y la ciberseguridad. Con una formación especializada en desarrollo de software y administración de sistemas, Iván ha adquirido habilidades sólidas que lo convierten en un experto en su campo.
+
+Actualmente, Iván se encuentra cursando una Especialización en Inteligencia Artificial y Big Data en Terrassa, en el centro educativo Vedruna Vall, desde el año 2023 hasta la actualidad. Este programa de estudios le permite profundizar en los conocimientos sobre inteligencia artificial y análisis de datos, áreas en las que está especialmente interesado.
+
+Anteriormente, Iván completó un Grado Superior en Desarrollo de Aplicaciones Multiplataforma (DAM) en Terrassa, en el centro educativo Vedruna Vall, durante el período 2022-actualidad. Durante este programa, Iván adquirió habilidades avanzadas en el desarrollo de aplicaciones para diferentes plataformas, lo que le permite crear soluciones tecnológicas innovadoras.
+
+Antes de su formación en desarrollo de aplicaciones, Iván completó un Grado Superior en Administración de Sistemas Informáticos en Red (ASIX) y ciberseguridad en Terrassa, en el centro educativo Vedruna Vall, durante el período 2021-2023. Durante este programa, Iván adquirió habilidades en la administración y mantenimiento de sistemas informáticos en red, así como en la aplicación de medidas de ciberseguridad para proteger la información y los sistemas de una organización.
+
+Iván comenzó su formación en el ámbito de la informática con un Grado Medio en Sistemas Microinformáticos y Redes en Terrassa, en el centro educativo Vedruna Vall, durante el período 2019-2021. Durante este ciclo formativo, Iván adquirió una sólida base en sistemas microinformáticos y redes, lo que le proporcionó los conocimientos necesarios para iniciar su carrera profesional en el campo de la informática y la tecnología.</string>
+   <string name="contactanostitulo">CONTACTANOS</string>
 </resources>

@@ -11,6 +11,17 @@ class pantalla3 : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_pantalla3)
 
+        val irsobrenosotros = findViewById<Button>(R.id.sobrenosotros)
+        irsobrenosotros.setOnClickListener {
+            val intent = Intent(this, sobrenosotros::class.java)
+            startActivity(intent)
+        }
+        val ircontactanos = findViewById<Button>(R.id.contactanos)
+        ircontactanos.setOnClickListener {
+            val intent = Intent(this, contactanos::class.java)
+            startActivity(intent)
+        }
+
         val buttonCsesion = findViewById<Button>(R.id.buttoncsesion)
         buttonCsesion.setOnClickListener {
             // Al hacer clic en el botón, iniciar la actividad MainActivity
