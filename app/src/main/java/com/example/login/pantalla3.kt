@@ -5,11 +5,35 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 import android.widget.Toast
+import com.google.android.material.bottomnavigation.BottomNavigationView
 
 class pantalla3 : AppCompatActivity() {
+    private lateinit var bottomNavigationView: BottomNavigationView
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_pantalla3)
+
+        bottomNavigationView = findViewById(R.id.bottom_navigation)
+        bottomNavigationView.setOnNavigationItemSelectedListener { item ->
+            when (item.itemId) {
+                R.id.navigation_home -> {
+                    val intent = Intent(this, pantalla_principal::class.java)
+                    startActivity(intent)
+                    true
+                }
+                R.id.navigation_dashboard -> {
+                    val intent = Intent(this, pantalla2::class.java)
+                    startActivity(intent)
+                    true
+                }
+                R.id.navigation_notifications -> {
+                    val intent = Intent(this, pantalla3::class.java)
+                    startActivity(intent)
+                    true
+                }
+                else -> false
+            }
+        }
 
         val irsobrenosotros = findViewById<Button>(R.id.sobrenosotros)
         irsobrenosotros.setOnClickListener {
