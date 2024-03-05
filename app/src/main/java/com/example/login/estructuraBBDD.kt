@@ -14,8 +14,7 @@ data class estructuraGastos(
 )
 
 data class categorias(
-    var nombreCat: String? = null,
-    var idGasto: Int? = null
+    var nombrecat: String? = null
 )
 
 
