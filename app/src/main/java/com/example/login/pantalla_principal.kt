@@ -40,11 +40,7 @@ class pantalla_principal : AppCompatActivity() {
         calendarView.setOnDateChangeListener { view, year, month, dayOfMonth ->
             Toast.makeText(this, "Fecha seleccionada: $dayOfMonth/${month + 1}/$year", Toast.LENGTH_SHORT).show()
         }
-        val buttonPantallaCsesion = findViewById<Button>(R.id.buttoncalendario)
-        buttonPantallaCsesion.setOnClickListener {
-            val intent = Intent(this, pantalla2::class.java)
-            startActivity(intent)
-        }
+
         val buttonpantallacreargasto = findViewById<Button>(R.id.buttoncrear)
         buttonpantallacreargasto.setOnClickListener {
             val intent = Intent(this, categoriagasto::class.java)

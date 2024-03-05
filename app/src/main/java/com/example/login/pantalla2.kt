@@ -33,11 +33,5 @@ class pantalla2 : AppCompatActivity() {
                 else -> false
             }
         }
-
-        val buttonPantallaCsesion = findViewById<Button>(R.id.buttonpantallacsesion)
-        buttonPantallaCsesion.setOnClickListener {
-            val intent = Intent(this, pantalla3::class.java)
-            startActivity(intent)
-        }
     }
 }
