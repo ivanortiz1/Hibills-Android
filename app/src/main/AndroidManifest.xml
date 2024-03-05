@@ -13,6 +13,12 @@
         android:theme="@style/Theme.Login"
         tools:targetApi="31">
         <activity
+            android:name=".crearcategoria"
+            android:exported="false" />
+        <activity
+            android:name=".categoriagasto"
+            android:exported="false" />
+        <activity
             android:name=".contactanos"
             android:exported="false" />
         <activity
