@@ -39,7 +39,7 @@ class creargasto : AppCompatActivity() {
         }
     }
     private fun guardaDatosUsuarios() {
-
+        // TODO Pasar el nombre de la coleccion de la actividad Registro y login
         val categoriaid = idcategoria.text.toString()
         val mesid = idmes.text.toString()
         val gastocantidad = cantidadgasto.text.toString()

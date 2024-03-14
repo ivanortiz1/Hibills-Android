@@ -1,5 +1,6 @@
 package com.example.login
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Parcel
@@ -62,7 +63,18 @@ class registro() : AppCompatActivity() {
 
 
         val usuarioId = database.push().key!!
-        val uBBDD = estructuraBBDD(usuarioNombre, usuarioCorreo, usuarioPass)
+
+
+        val usuarioColeccion = FirebaseDatabase.getInstance().getReference("Usuarios/$usuarioNombre")
+
+
+        val categoria1 = "Ocio"
+        val categoria2 = "Transporte"
+        val categoria3 = "Compras"
+        val uBBDD = estructuraBBDD(usuarioCorreo, usuarioNombre, usuarioPass, categoria1, categoria2, categoria3)
+
+        usuarioColeccion.setValue(uBBDD)
+
 
         database.child(usuarioId).setValue(uBBDD)
             .addOnCompleteListener {
@@ -72,6 +84,8 @@ class registro() : AppCompatActivity() {
                 nombreU.text.clear()
                 correoU.text.clear()
                 passU.text.clear()
+                val intent = Intent(this@registro, Bienvenida::class.java)
+                startActivity(intent)
 
             }.addOnFailureListener(){err ->
                 Log.e("Firebase", "Error al insertar datos: ${err.message}")

@@ -4,6 +4,9 @@ data class estructuraBBDD(
     var correo: String? = null,
     var nombre: String? = null,
     var contrasenya: String? = null,
+    var categoria1: String? = null,
+    var categoria2: String? = null,
+    var categoria3: String? = null
 )
 
 data class estructuraGastos(
