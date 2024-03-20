@@ -10,8 +10,12 @@ import com.google.firebase.database.FirebaseDatabase
 import android.widget.Button
 import android.widget.Toast
 import android.util.Log
+import android.util.Patterns
+import androidx.appcompat.app.AlertDialog
+import com.example.login.databinding.ActivityMainBinding
 
 class registro() : AppCompatActivity() {
+    private lateinit var binding: ActivityMainBinding
     private lateinit var btngrabaregistro: Button
     private lateinit var nombreU: EditText
     private lateinit var correoU: EditText
@@ -27,6 +31,7 @@ class registro() : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_registro)
 
+        binding = ActivityMainBinding.inflate(layoutInflater)
         nombreU = findViewById(R.id.Rnombre)
         correoU = findViewById(R.id.Remail)
         passU = findViewById(R.id.Rpassword)
@@ -59,13 +64,15 @@ class registro() : AppCompatActivity() {
             Toast.makeText(this, "Las contraseñas no coinciden", Toast.LENGTH_SHORT).show()
             return
         }
+        // Añadir aqui la validacion de mail
+
 
 
 
         val usuarioId = database.push().key!!
 
 
-        val usuarioColeccion = FirebaseDatabase.getInstance().getReference("Usuarios/$usuarioNombre")
+        val usuarioColeccion = FirebaseDatabase.getInstance().getReference(usuarioNombre)
 
 
         val categoria1 = "Ocio"
